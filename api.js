@@ -1,5 +1,5 @@
 (function() {
-  var respond, restify, server;
+  var port, respond, restify, server;
 
   restify = require('restify');
 
@@ -11,7 +11,9 @@
 
   server.get('/hello/:name/:string', respond);
 
-  server.listen(8080, function() {
+  port = Number(process.env.PORT || 5000);
+
+  server.listen(port, function() {
     return console.log('%s listening at %s', server.name, server.url);
   });
 
