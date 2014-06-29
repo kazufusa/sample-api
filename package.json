@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/kazufusa/sample-api/issues"
   },
-  "homepage": "https://github.com/kazufusa/sample-api"
+  "homepage": "https://github.com/kazufusa/sample-api",
+  "dependencies": {
+    "restify": "^2.8.1"
+  }
 }
