@@ -1,0 +1,5 @@
+{
+  "url": "http://fx.dmm.com/api/fx/rate/rate.json",
+  "parser": "dmmloader",
+  "json": true
+}
