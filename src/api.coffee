@@ -1,4 +1,4 @@
-config = require 'config'
+config = require './config.json'
 parser = require config['parser']
 restify = require 'restify'
 request = require 'request'
